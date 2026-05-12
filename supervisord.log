@@ -4193,6 +4193,7 @@
 2025-06-12 12:49:33,346 WARN exited: streamlit (exit status 2; not expected)
 2025-06-12 12:49:34,348 INFO gave up: streamlit entered FATAL state, too many start retries too quickly
 2025-06-12 13:28:55,422 WARN received SIGTERM indicating exit request
+<<<<<<< HEAD
 2025-12-08 17:07:48,257 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
 2025-12-08 17:07:48,269 INFO supervisord started with pid 1
 2025-12-08 17:07:49,282 INFO spawned: 'fastapi' with pid 7
@@ -7029,3 +7030,5 @@
 2025-12-16 13:43:49,904 WARN exited: fastapi (exit status 3; not expected)
 2025-12-16 13:43:49,906 INFO spawned: 'fastapi' with pid 15
 2025-12-16 13:43:51,381 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+=======
+>>>>>>> 7222ba1b59b8f654c5bb751768b4493b1004fb18
